@@ -16,7 +16,7 @@ public class Main extends Application {
 			Parent parent = loader.load();
 			Scene mainScene = new Scene(parent);
 			primaryStage.setScene(mainScene);
-			primaryStage.setTitle("TEST");
+			primaryStage.setTitle("TESTING");
 			primaryStage.show();
 		} catch (IOException e) {
 			e.printStackTrace();
