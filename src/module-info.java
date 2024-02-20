@@ -3,6 +3,7 @@ module workshop_javafx_jdbc {
 	requires javafx.fxml;
 	requires java.sql;
 	requires java.desktop;
+	requires transitive javafx.base;
 	
 	opens application to javafx.graphics, javafx.fxml;
 	opens gui to javafx.fxml;
