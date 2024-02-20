@@ -10,4 +10,5 @@ module workshop_javafx_jdbc {
 	exports gui;
 	exports model.entities;
 	exports model.services;
+	exports gui.listeners;
 }
